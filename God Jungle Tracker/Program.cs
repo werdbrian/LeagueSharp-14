@@ -1736,12 +1736,12 @@ namespace GodJungleTracker
                 {
                     if (CampPosition[i].IsOnScreen() && timeronmap)
                     {
-                        MapText.DrawText(null, TimerTextOnMap[i], TimerPosXOnMap[i],TimerPosYOnMap[i], white);
+                        //MapText.DrawText(null, TimerTextOnMap[i], TimerPosXOnMap[i],TimerPosYOnMap[i], white);
                     }
 
                     if (timeronminimap)
                     {
-                        MinimapText.DrawText(null, TimerTextOnMinimap[i], TimerPosXOnMinimap[i], TimerPosYOnMinimap[i], white);
+                      //  MinimapText.DrawText(null, TimerTextOnMinimap[i], TimerPosXOnMinimap[i], TimerPosYOnMinimap[i], white);
                     }
                 }
 
